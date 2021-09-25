@@ -286,6 +286,17 @@ text-align: center;
   font-size: 2rem;
   font-weight: 800;
   color: var(--third-color);
+  text-transform: uppercase;
+}
+
+.car-details h3{
+  color:var(--black-choise);
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.car-details span{
+  color: var(--black-choise);
 }
 .new-product img{
   width: 270px;
@@ -293,6 +304,7 @@ text-align: center;
   gap: 1rem;
   object-fit: cover;
 }
+
 @media (min-width:768px) {
   
 .new-product img{
@@ -319,27 +331,22 @@ text-align: center;
   margin: 1rem;
   transition: var(--transition);
   cursor: pointer;
-  background: var(--fisrt-color);
+ 
 }
 .new-product:hover{
   transform: translateY(-2rem);
 }
-.car-details .name{
-  color: var(--clr-black);
-  text-transform: capitalize;
-  font-size: 1.5rem;
-  font-weight: 400;
-}
 .price span{
   font-size: 2rem;
   font-weight: 200;
+ 
 }
 .killometrage h2{
   font-size: 1.5rem;
   font-weight: 400;
 }
  .price{
-  color: var(--choise-color);
+  color: var(--third-color);
   text-transform: uppercase;
 }
 .car-details span{
@@ -359,13 +366,14 @@ text-align: center;
   opacity: 0.8;
   transition: var(--transition);
   cursor: pointer;
+  width: 350px;
 }
 .model-cars:hover{
   opacity: 1;
 }
 .model-cars img{
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
   
     border-radius: 5px;
 }
@@ -381,7 +389,7 @@ text-align: center;
 }
 .name-model p{
   font-size: 1.2rem;
-  color: var(--third-color);
+  color: var(--white-choise);
 }
 .contact .fas{
   color: var(--third-color); font-size: 1.2rem;
@@ -393,7 +401,7 @@ text-align: center;
 }
 @media (min-width:768px) {
   .model-cars img{
-    width: 300px;
+    width: 350px;
     height: 180px;
   }
   .name-model{
@@ -435,7 +443,7 @@ text-align: center;
 }
 .section-6 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
-    url(images/bg-section5.jpg) center no-repeat;
+    url(/images/contactbg.jpg) center no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -493,9 +501,7 @@ text-align: center;
   color: #fff;
   text-align: center;
 }
-/* End of Section 5 */
 
-/* Responsive */
 @media (max-width: 1500px) {
   .navbar {
     width: 20vw;
@@ -717,8 +723,7 @@ text-align: center;
     width: 80%;
   }
 }
-/* End of Responsive */
-/* team */
+
 
 .team {
   display: flex;
